@@ -13,7 +13,7 @@ public class Even {
         String name = scanner.nextLine();
         System.out.println("Hello, " + name + "!");
         while (correctCount < 3) {
-            number = random.nextInt(1000);
+            number = random.nextInt(100);
             System.out.print("Answer 'yes' if the number is even, otherwise answer 'no'.\n"
                     + "Question: " + number
                     + "\nYour answer: ");
