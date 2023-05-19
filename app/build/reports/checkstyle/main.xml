@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.45.1">
+<file name="/home/nikola/MyfirstProject/java-project-61/app/src/main/java/hexlet/code/GCD.java">
+</file>
 <file name="/home/nikola/MyfirstProject/java-project-61/app/src/main/java/hexlet/code/App.java">
 </file>
 <file name="/home/nikola/MyfirstProject/java-project-61/app/src/main/java/hexlet/code/Cli.java">
 </file>
 <file name="/home/nikola/MyfirstProject/java-project-61/app/src/main/java/hexlet/code/Even.java">
 </file>
+<file name="/home/nikola/MyfirstProject/java-project-61/app/src/main/java/hexlet/code/Calc.java">
+</file>
+<file name="/home/nikola/MyfirstProject/java-project-61/app/src/main/java/hexlet/code/Engine.java">
+</file>
 <file name="/home/nikola/MyfirstProject/java-project-61/app/src/main/java/hexlet/code/Greet.java">
+</file>
+<file name="/home/nikola/MyfirstProject/java-project-61/app/src/main/java/hexlet/code/Random.java">
 </file>
 </checkstyle>
