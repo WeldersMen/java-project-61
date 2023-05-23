@@ -20,6 +20,7 @@ public class App {
             case 3 -> Calc.calcGame();
             case 4 -> GCD.gcdGame();
             case 5 -> Progression.progressionGame();
+            case 6 -> Prime.PrimeGame();
             case 0 -> {
             }
             default -> System.out.println("Такой игры нет в списке.");
