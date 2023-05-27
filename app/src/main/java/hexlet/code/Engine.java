@@ -6,7 +6,7 @@ public class Engine {
     public static final int ARRAY_SIZE = 2;
     public static void gameEngine(String gameAnswer, String[][] questionsAndAnswers) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome to the Brain Games!" + "\nMay I have your name?");
+        System.out.print("Welcome to the Brain Games!" + "\nMay I have your name? ");
         String name = scanner.nextLine();
         System.out.println("Hello, " + name + "!");
         System.out.println(gameAnswer);

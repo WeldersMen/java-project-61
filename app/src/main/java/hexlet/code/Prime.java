@@ -3,7 +3,7 @@ import static hexlet.code.Engine.ARRAY_SIZE;
 import static hexlet.code.Engine.TOTAL_ROUNDS;
 import static hexlet.code.Random.randomNumber;
 public class Prime {
-    private static final  String GAME_ANSWER = "Answer 'yes' if given number is prime. Otherwise answer 'no'";
+    private static final  String GAME_ANSWER = "Answer 'yes' if given number is prime. Otherwise answer 'no'.";
     public static boolean isPrime(int n) {
         if (n <= 1) {
             return false;
