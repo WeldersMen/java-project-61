@@ -5,12 +5,13 @@ import static hexlet.code.Engine.TOTAL_ROUNDS;
 import static hexlet.code.Random.randomNumber;
 public class Calc {
     private static final  String GAME_ANSWER = "What is the result of the expression?";
+    private static final int RANDOM = 3;
     public static void calcGame() {
         String[][] questionsAndAnswers = new String[TOTAL_ROUNDS][ARRAY_SIZE];
         Random random = new Random();
         for (int i = 0; i < TOTAL_ROUNDS; i++) {
             for (int j = 0; j < ARRAY_SIZE; j++) {
-                int operatorChoice = random.nextInt(3);
+                int operatorChoice = random.nextInt(RANDOM);
                 String operator = null;
                 int operandOne = randomNumber();
                 int operandTwo = randomNumber();

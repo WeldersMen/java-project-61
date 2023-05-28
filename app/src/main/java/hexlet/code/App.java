@@ -1,6 +1,8 @@
 package hexlet.code;
 import java.util.Scanner;
 public class App {
+    static final int ONE = 1, TWO = 2, THREE = 3, FOUR = 4, FIVE = 5, SIX = 6, ZERO = 0;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the game number and press Enter.");
@@ -15,13 +17,13 @@ public class App {
                 """);
         int gameChoice = scanner.nextInt();
         switch (gameChoice) {
-            case 1 -> Greet.echoGreet();
-            case 2 -> Even.evenGame();
-            case 3 -> Calc.calcGame();
-            case 4 -> GCD.gcdGame();
-            case 5 -> Progression.progressionGame();
-            case 6 -> Prime.primeGame();
-            case 0 -> {
+            case ONE -> Greet.echoGreet();
+            case TWO -> Even.evenGame();
+            case THREE -> Calc.calcGame();
+            case FOUR -> GCD.gcdGame();
+            case FIVE -> Progression.progressionGame();
+            case SIX -> Prime.primeGame();
+            case ZERO -> {
             }
             default -> System.out.println("Такой игры нет в списке.");
 

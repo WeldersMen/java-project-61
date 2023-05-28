@@ -2,6 +2,7 @@ package hexlet.code;
 import java.util.Scanner;
 import java.util.Random;
 public class Even {
+    private static final int THREE = 3, HUNDRED = 100;
     public static void evenGame() {
         Random random = new Random();
         int correctCount = 0;
@@ -12,8 +13,8 @@ public class Even {
         System.out.println("May I have your name?");
         String name = scanner.nextLine();
         System.out.println("Hello, " + name + "!");
-        while (correctCount < 3) {
-            number = random.nextInt(100);
+        while (correctCount < THREE) {
+            number = random.nextInt(HUNDRED);
             System.out.print("Answer 'yes' if the number is even, otherwise answer 'no'.\n"
                     + "Question: " + number
                     + "\nYour answer: ");
