@@ -5,15 +5,16 @@ import static hexlet.code.Engine.TOTAL_ROUNDS;
 import static hexlet.code.Random.randomNumber;
 public class Progression {
     private static final  String GAME_ANSWER = "What number is missing in the progression?";
+    private static final int  ONE = 1, FIVE = 5, SIX = 6, TEN = 10;
     public static void progressionGame() {
         String[][] questionsAndAnswers = new String[TOTAL_ROUNDS][ARRAY_SIZE]; // массив вопросов и ответов
         Random random = new Random();
         for (int i = 0; i < TOTAL_ROUNDS; i++) {
             for (int j = 0; j < ARRAY_SIZE; j++) {
              //
-                int progressionLength = random.nextInt(6) + 5; // Длинна прогрессии от 5 до 10
+                int progressionLength = random.nextInt(SIX) + FIVE; // Длинна прогрессии от 5 до 10
                 int beginProgression = randomNumber(); // Первый элемент прогрессии от 1 до 100
-                int progressionDifference = random.nextInt(10) + 1; // Разность прогрессии от 1 до 10
+                int progressionDifference = random.nextInt(TEN) + ONE; // Разность прогрессии от 1 до 10
                 int hiddenEelement = random.nextInt(progressionLength); //индекс элемента который нужно спрятать
              //
                 String question =  "";
