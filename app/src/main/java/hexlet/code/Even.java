@@ -2,7 +2,8 @@ package hexlet.code;
 import java.util.Scanner;
 import java.util.Random;
 public class Even {
-    private static final int THREE = 3, HUNDRED = 100;
+    private static final int THREE = 3;
+    private static final int HUNDRED = 100;
     public static void evenGame() {
         Random random = new Random();
         int correctCount = 0;
