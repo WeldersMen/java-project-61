@@ -5,7 +5,10 @@ import static hexlet.code.Engine.TOTAL_ROUNDS;
 import static hexlet.code.Random.randomNumber;
 public class Progression {
     private static final  String GAME_ANSWER = "What number is missing in the progression?";
-    private static final int  ONE = 1, FIVE = 5, SIX = 6, TEN = 10;
+    private static final int ONE = 1;
+    private static final int FIVE = 5;
+    private static final int SIX = 6;
+    private static final int TEN = 10;
     public static void progressionGame() {
         String[][] questionsAndAnswers = new String[TOTAL_ROUNDS][ARRAY_SIZE]; // массив вопросов и ответов
         Random random = new Random();
