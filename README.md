@@ -1,1 +1,1 @@
-#  Hexlet tests and linter status:
+#  Hexlet tests and linter status: [![hexlet-check](https://github.com/WeldersMen/java-project-61/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/WeldersMen/java-project-61/actions/workflows/hexlet-check.yml)
