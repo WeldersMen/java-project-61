@@ -1,12 +1,12 @@
 package hexlet.code;
 import java.util.Scanner;
 public class App {
-   private static final int ONE = 1;
-   private static final int TWO = 2;
-   private static final int THREE = 3;
-   private static final int FOUR = 4;
-   private static final int FIVE = 5;
-   private static final int SIX = 6;
+    private static final int ONE = 1;
+    private static final int TWO = 2;
+    private static final int THREE = 3;
+    private static final int FOUR = 4;
+    private static final int FIVE = 5;
+    private static final int SIX = 6;
     private static final int ZERO = 0;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
