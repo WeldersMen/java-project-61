@@ -23,7 +23,7 @@ public class Progression {
         Random random = new Random();
         for (int i = 0; i < TOTAL_ROUNDS; i++) {
              //
-            int firstProgression = generateNumber(0, HUNDRED ); // Первый элемент прогрессии от 1 до 100
+            int firstProgression = generateNumber(0, HUNDRED); // Первый элемент прогрессии от 1 до 100
             int lenghtProgression = random.nextInt(SIX) + FIVE; // Длинна прогрессии от 5 до 10
             int stepProgresson = random.nextInt(TEN) + ONE; // Разность прогрессии от 1 до 10
             int hiddenEelement = random.nextInt(lenghtProgression); //индекс элемента который нужно спрятать
