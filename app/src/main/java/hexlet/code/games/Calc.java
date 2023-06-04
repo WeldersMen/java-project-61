@@ -12,7 +12,7 @@ public class Calc {
         String[] arrOperator = new String[]{"+", "-", "*"}; // инициализация массива с операторами
         Random random = new Random();
         for (int i = 0; i < TOTAL_ROUNDS; i++) {
-            int operatorChoice = generateNumber(0, 3); // Рандомный индекс для массива операторов
+            int operatorChoice = generateNumber(0, 2); // Рандомный индекс для массива операторов
             String operator = arrOperator[operatorChoice]; // инициализация рандомного оператора
             int operandOne = generateNumber(0, 100);
             int operandTwo = generateNumber(0, 100);
