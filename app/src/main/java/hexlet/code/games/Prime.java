@@ -21,11 +21,11 @@ public class Prime {
 
     public static void primeGame() {
         String[][] questionsAndAnswers = new String[TOTAL_ROUNDS][ARRAY_SIZE]; // массив вопросов и ответов
-        for (int i = 0; i < TOTAL_ROUNDS; i++) {
+        for (String[] array : questionsAndAnswers) {
             int question = generateNumber(0, HUNDRED);
             boolean answer = isPrime(question);
-            questionsAndAnswers[i][0] = String.valueOf(question);
-            questionsAndAnswers[i][1] = answer ? "yes" : "no";
+            array[0] = String.valueOf(question);
+            array[1] = answer ? "yes" : "no";
         }
         Engine.gameEngine(GAME_ANSWER, questionsAndAnswers);
     }

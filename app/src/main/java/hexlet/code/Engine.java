@@ -10,9 +10,9 @@ public class Engine {
         String name = scanner.nextLine();
         System.out.println("Hello, " + name + "!");
         System.out.println(gameAnswer);
-        for (int i = 0; i < TOTAL_ROUNDS; i++) {
-            String question = questionsAndAnswers[i][0];
-            String answer =  questionsAndAnswers[i][1];
+        for (String[] array : questionsAndAnswers) {
+            String question = array[0];
+            String answer =  array[1];
             System.out.println("Question: " + question);
             System.out.print("Your answer: ");
             String userAnswer = scanner.nextLine();

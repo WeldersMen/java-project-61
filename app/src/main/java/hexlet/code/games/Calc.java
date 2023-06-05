@@ -11,7 +11,7 @@ public class Calc {
         String[][] questionsAndAnswers = new String[TOTAL_ROUNDS][ARRAY_SIZE];
         String[] arrOperator = new String[]{"+", "-", "*"}; // инициализация массива с операторами
         Random random = new Random();
-        for (int i = 0; i < TOTAL_ROUNDS; i++) {
+        for (String[] array : questionsAndAnswers) {
             int operatorChoice = generateNumber(0, 2); // Рандомный индекс для массива операторов
             String operator = arrOperator[operatorChoice]; // инициализация рандомного оператора
             int operandOne = generateNumber(0, HUNDRED);
@@ -21,18 +21,18 @@ public class Calc {
             switch (operator) {
                 case "+":
                     answer = operandOne + operandTwo;
-                    questionsAndAnswers[i][0] = question;
-                    questionsAndAnswers[i][1] = String.valueOf(answer);
+                    array[0] = question;
+                    array[1] = String.valueOf(answer);
                     break;
                 case "-":
                     answer = operandOne - operandTwo;
-                    questionsAndAnswers[i][0] = question;
-                    questionsAndAnswers[i][1] = String.valueOf(answer);
+                    array[0] = question;
+                    array[1] = String.valueOf(answer);
                     break;
                 case "*":
                     answer = operandOne * operandTwo;
-                    questionsAndAnswers[i][0] = question;
-                    questionsAndAnswers[i][1] = String.valueOf(answer);
+                    array[0] = question;
+                    array[1] = String.valueOf(answer);
                     break;
                 default:
                     throw new RuntimeException("Unknown input: " + operator);
