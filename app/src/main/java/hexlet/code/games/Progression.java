@@ -26,7 +26,7 @@ public class Progression {
             int firstProgression = generateNumber(0, HUNDRED); // Первый элемент прогрессии от 1 до 100
             int lenghtProgression = generateNumber(FIVE, TEN); // Длинна прогрессии от 5 до 10
             int stepProgresson = generateNumber(ONE, TEN); // Разность прогрессии от 1 до 10
-            int hiddenEelement = generateNumber(0, lenghtProgression); //индекс элемента который нужно спрятать
+            int hiddenEelement = generateNumber(0, lenghtProgression - 1); //индекс элемента который нужно спрятать
              //
             String[] progression = makeProgression(firstProgression, stepProgresson, lenghtProgression);
             var answer = progression[hiddenEelement];
